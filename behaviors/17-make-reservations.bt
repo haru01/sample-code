@@ -142,7 +142,7 @@
         "options": {
             "getWords": [
                 "(callback) => {",
-                "    if(notepad.results.book) {",
+                "    if(notepad.results.status === \"GOT-PARSE\") {",
                 "        let results = notepad.results;",
                 "        let text = 'Sure I\\'ll book ' + results.book + ' to ' + results.city;",
                 "        if(results.state !== \"null\") {",
