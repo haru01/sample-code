@@ -21,6 +21,7 @@ jibo.init('face', function(err) {
     jibo.timer.on('update', function(elapsed){
         if (root.status !== Status.IN_PROGRESS) {
             console.log('Behavior tree finished with status: %s', root.status);
+            jibo.timer.stop();
         } else {
             root.update();
         }
