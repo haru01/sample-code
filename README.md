@@ -35,7 +35,7 @@ If you don't `npm install`, the Behavior Tree Tool cannot render the behaviors!
 
 1. Open the `sample-code` skill in Atom.
   * If you don't see the Project pane, click **View > Toggle Tree View** to open it.
-1. Click **src > main.js** in the Project pane to open the skill's main.js file.
+1. Click **src > index.js** in the Project pane to open the skill's main.js file.
 3. Change the following line of code from:
 
       `let root = factory.create('../behaviors/01-sequence');`
